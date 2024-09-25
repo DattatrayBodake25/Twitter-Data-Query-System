@@ -24,34 +24,39 @@ cd Twitter-Data-Query-System
 
 ## Step 2: Install Dependencies
 Make sure you have the required Python packages. You can install them using pip. The dependencies are listed in the requirements.txt file.
-
+```bash
 pip install -r requirements.txt
+```
 
-Step 3: (Optional) Run with Docker
+## Step 3: (Optional) Run with Docker
 If you prefer to run the application using Docker, ensure you have Docker installed, and then run:
-
+```bash
 docker-compose up
-
+```
 This will build the Docker container as specified in the Dockerfile and start the Flask application.
 
-Running the Application
+## Running the Application
 To run the application locally, execute:
-
+```bash
 python app.py
-
+```
 This will start the Flask server, and you can access the application at http://127.0.0.1:5000.
 
 Using the API
 Home Page
-Visit http://127.0.0.1:5000/ to see a welcome message.
+Visit
+```bash
+http://127.0.0.1:5000/
+```
+to see a welcome message.
 
 Search Endpoint
 You can search for tweets by sending a GET request to the /search endpoint with a query parameter for the search term.
 
 Example:
-
+```bash
 curl "http://127.0.0.1:5000/search?term=your_search_term"
-
+```
 Replace your_search_term with the term you want to search for.
 
 Response Format
