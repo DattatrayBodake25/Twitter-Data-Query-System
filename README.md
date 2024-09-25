@@ -20,8 +20,9 @@ The Twitter Data Query System is a Flask-based web application designed to analy
 ```bash
 git clone https://github.com/DattatrayBodake25/Twitter-Data-Query-System.git
 cd Twitter-Data-Query-System
+```
 
-Step 2: Install Dependencies
+## Step 2: Install Dependencies
 Make sure you have the required Python packages. You can install them using pip. The dependencies are listed in the requirements.txt file.
 
 pip install -r requirements.txt
