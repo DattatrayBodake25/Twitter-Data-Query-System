@@ -59,6 +59,11 @@ curl "http://127.0.0.1:5000/search?term=your_search_term"
 ```
 Replace your_search_term with the term you want to search for.
 
+Using Browser Example:
+```bash
+"http://127.0.0.1:5000/search?term=music"
+```
+
 Response Format
 The response will be in JSON format and includes:
 ```bash
