@@ -1,0 +1,4 @@
+flask  # For creating web applications and APIs
+pandas  # For data manipulation and analysis
+numpy  # For efficient numerical operations and array handling
+textblob  # For processing textual data and performing sentiment analysis
