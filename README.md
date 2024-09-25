@@ -61,7 +61,7 @@ Replace your_search_term with the term you want to search for.
 
 Response Format
 The response will be in JSON format and includes:
-
+```bash
 tweets_per_day: Count of tweets per day.
 unique_users: Number of unique users.
 average_likes: Average likes per tweet.
@@ -75,6 +75,7 @@ top_active_users: Top 5 most active users.
 tweet_sources: Count of tweets from different sources.
 Important Design Choices
 Flask Framework: The Flask framework was chosen for its simplicity and flexibility, making it easy to create RESTful APIs.
+```
 
 Data Handling with Pandas: The application uses pandas for efficient data manipulation and analysis, enabling quick filtering and calculations on the dataset.
 
@@ -84,5 +85,5 @@ Regular Expressions for Hashtags: Regular expressions are used to extract hashta
 
 JSON Responses: The API returns data in JSON format, which is widely used for data interchange and easily consumable by clients.
 
-Conclusion
+## Conclusion
 You now have a fully functional Twitter Data Query System that allows you to analyze tweets and extract meaningful insights. Feel free to explore and modify the code as per your requirements.
