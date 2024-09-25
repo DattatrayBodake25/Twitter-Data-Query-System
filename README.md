@@ -17,6 +17,7 @@ The Twitter Data Query System is a Flask-based web application designed to analy
 ## Installation
 
 ### Step 1: Clone the Repository
+```bash
 git clone https://github.com/DattatrayBodake25/Twitter-Data-Query-System.git
 cd Twitter-Data-Query-System
 
